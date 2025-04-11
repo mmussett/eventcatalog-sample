@@ -27,3 +27,5 @@ spec:
     - flogo-hello-world-async-api
   dependsOn:
     - component:hello-world-event
+  eventcatalog-id: 'flogo-hello-world-event-producer'
+
