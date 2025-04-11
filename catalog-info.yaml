@@ -1,11 +1,14 @@
 apiVersion: backstage.io/v1alpha1
-kind: Group
+kind: Location
 metadata:
-  name: eventcatalog-demo
-  description: A demo group for the EventCatalog plugin
+  name: eventcatalog-sample
 spec:
-  type: organization
-  profile:
-    displayName: Event Catalog Demo
-    email: mark.mussett@cloud.com
-  children: []
+  targets:
+    - ./groups.yaml
+    - ./system.yaml
+    - ./api-info.yaml
+    - ./component-kafka-broker.yaml
+    - ./component-channels.yaml
+    - ./component-events.yaml
+    - ./component-flogo-consumer.yaml
+    - ./component-flogo-producer.yaml
