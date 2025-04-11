@@ -19,7 +19,7 @@ metadata:
     github.com/project-slug: mmussett/mmussett/eventcatalog-sample
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: event-driven-service
+  type: service
   lifecycle: production
   system: event-driven-system
   owner: flogo-developers
