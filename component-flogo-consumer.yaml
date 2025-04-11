@@ -11,12 +11,12 @@ metadata:
   links:
     - title: Repository
       description: GitHub repository
-      url: https://github.com/mmussett/developer-hub-eda
+      url: https://github.com/mmussett/eventcatalog-sample
     - title: VSCode
       description: Edit in VSCode
-      url: vscode://vscode.git/clone?url=https://github.com/mmussett/developer-hub-eda
+      url: vscode://vscode.git/clone?url=https://github.com/mmussett/eventcatalog-sample
   annotations:
-    github.com/project-slug: mmussett/mmussett/developer-hub-eda
+    github.com/project-slug: mmussett/mmussett/eventcatalog-sample
     backstage.io/techdocs-ref: dir:.
 spec:
   type: component
