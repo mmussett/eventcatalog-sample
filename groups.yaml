@@ -127,7 +127,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: kafka-messaging-group
-  description: TIBCO Castle - Kafka Messaging Group
+  description: Kafka Messaging Group
   tags:
     - messaging
     - tibco
@@ -137,7 +137,7 @@ metadata:
 spec:
   type: department
   profile:
-    displayName: TIBCO Castle - Kafka Messaging Group
+    displayName: Kafka Messaging Group
     email: messaging@tibco.com
   parent: tibco-messaging-group
   children: []
@@ -146,7 +146,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: pulsar-messaging-group
-  description: TIBCO Quasar - Apache Pulsar Messaging Group
+  description: Apache Pulsar Messaging Group
   tags:
     - messaging
     - tibco
@@ -157,7 +157,7 @@ metadata:
 spec:
   type: department
   profile:
-    displayName: TIBCO Quasar - Apache Pulsar Messaging Group
+    displayName: Apache Pulsar Messaging Group
     email: messaging@tibco.com
   parent: tibco-messaging-group
   children: []
