@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: EventCatalog Demo
+  name: eventcatalog-demo
   description: A demo group for the EventCatalog plugin
 spec:
   type: organization
