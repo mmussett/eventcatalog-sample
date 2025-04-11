@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: flogo-hello-world-async-api
+  description: Flogo Hello World Async API
+  tags:
+  - kafka
+  - messaging
+  - event-driven-system
+  links:
+    - url: https://github.com/mmussett/developer-hub-eda
+      title: GitHub Repo 
+      icon: github 
+    - url: https://github.com/mmussett/developer-hub-eda/blob/main/api-spec/asyncapi.yaml
+      title: API Spec 
+      icon: code
+    - url: https://editor.swagger.io/?spec=https://github.com/mmussett/developer-hub-eda/blob/main/api-spec/asyncapi.yaml
+      title: Swagger Editor 
+      icon: code
+spec:
+  type: asyncapi
+  lifecycle: experimental
+  owner: flogo-developers
+  system: event-driven-system
+  dependsOn: 
+    - component: flogo-hello-world-event-consumer
+  dependencyOf:
+    - component: flogo-hello-world-event-provider
+  definition:
+    $text: ./api-spec/asyncapi.yaml
