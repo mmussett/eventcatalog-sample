@@ -1,0 +1,4 @@
+eventcatalog:
+  services:
+    - backstage-name: 'flogo-hello-world-event-producer'
+      eventcatalog-id: 'flogo-hello-world-event-producer'
