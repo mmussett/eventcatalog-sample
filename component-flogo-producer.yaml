@@ -1,5 +1,6 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
+eventcatalog-id: 'flogo-hello-world-event-producer'
 metadata:
   name: flogo-hello-world-event-producer
   description: Flogo version of hello-world
@@ -27,5 +28,4 @@ spec:
     - flogo-hello-world-async-api
   dependsOn:
     - component:hello-world-event
-  eventcatalog-id: 'flogo-hello-world-event-producer'
 
