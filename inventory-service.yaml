@@ -18,6 +18,9 @@ metadata:
   annotations:
     github.com/project-slug: mmussett/mmussett/eventcatalog-sample
     backstage.io/techdocs-ref: dir:.
+    eventcatalog.dev/id: inventory-service
+    eventcatalog.dev/version: 0.0.2
+    eventcatalog.dev/collection: services
 spec:
   type: service
   lifecycle: production
