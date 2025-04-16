@@ -4,6 +4,7 @@ metadata:
   name: eventcatalog-sample
 spec:
   targets:
-    - ./system.yaml
     - ./groups.yaml
+    - ./system.yaml
+
 

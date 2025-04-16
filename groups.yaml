@@ -1,10 +1,15 @@
 apiVersion: backstage.io/v1alpha1
-kind: Domain
+kind: Group
 metadata:
-  name: orders
-  description: Everything related to order management
+  name: acme-solutions
+  description: Our Solutions Group
 spec:
-  owner: group:order-management
+  type: organization
+  profile:
+    displayName: ACME Solution Engineering
+    email: info@acme.com
+  children: [order-management]
+
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -16,5 +21,14 @@ spec:
   profile:
     displayName: 'The order management team'
     email: info@acme.com
-  parent: 
+  parent: acme-solutions
   children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: orders
+  description: Everything related to order management
+spec:
+  owner: group:order-management
