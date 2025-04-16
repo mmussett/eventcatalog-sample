@@ -6,6 +6,4 @@ spec:
   targets:
     - ./system.yaml
     - ./groups.yaml
-    - ./component-kafka-broker.yaml
-    - ./api-info.yaml
-    - ./inventory-service.yaml
+
