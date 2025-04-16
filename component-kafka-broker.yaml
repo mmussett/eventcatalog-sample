@@ -6,8 +6,6 @@ metadata:
   description: Some description of the kafka-broker component
   tags:
     - kafka
-    - broker
-    - event-driven-system
   links:
     - url: http://kafka-server.vmlab.live:8080/ui/clusters/local/brokers
       title: Kafka Dashboard
@@ -15,5 +13,5 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: group:kafka-messaging-group
-  system: event-driven-system
+  owner: group:order-management
+  system: order-management-system

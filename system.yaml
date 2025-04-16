@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: event-driven-system
-  description: 'An event-driven system'
+  name: order-management-system
+  description: 'Order Management System'
   annotations:
     github.com/project-slug: mmussett/eventcatalog-sample
     backstage.io/techdocs-ref: dir:.
   tags:
-    - eda
+    - oms
     - kafka
 spec:
-  owner: group:kafka-messaging-group
-  domain: eda-domain
+  owner: group:order-management
+  domain: orders

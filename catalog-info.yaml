@@ -4,11 +4,8 @@ metadata:
   name: eventcatalog-sample
 spec:
   targets:
-    - ./groups.yaml
     - ./system.yaml
-    - ./api-info.yaml
+    - ./groups.yaml
     - ./component-kafka-broker.yaml
-    - ./component-channels.yaml
-    - ./component-events.yaml
-    - ./component-flogo-consumer.yaml
-    - ./component-flogo-producer.yaml
+    - ./api-info.yaml
+    - ./inventory-service.yaml
