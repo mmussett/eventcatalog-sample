@@ -7,6 +7,7 @@ metadata:
   tags:
     - flogo
     - kafka
+    - eventcatalog
   links:
     - title: Repository
       description: GitHub repository
@@ -25,6 +26,6 @@ spec:
   consumesApis:
     - inventory-service-async-api
   providesApis:
-    - inventory-service-sync-api
+    - inventory-service-async-api
   dependsOn:
     - component:kafka-broker
